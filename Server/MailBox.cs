@@ -9,7 +9,7 @@ namespace Server
 {
     public class MailBox : MarshalByRefObject, IMailBox
     {
-        public static List<Message> messages = new List<Message>();
+        public List<Message> messages = new List<Message>();
 
         public List<Message> RecieveMsg()
         {

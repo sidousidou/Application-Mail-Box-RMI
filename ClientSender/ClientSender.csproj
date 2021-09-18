@@ -52,8 +52,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\IRemote\IRemote.csproj">
-      <Project>{bb6c4f59-d8f8-4c7d-a7bb-73cb94dea3ef}</Project>
+    <ProjectReference Include="..\ClassLibrary1\IRemote.csproj">
+      <Project>{dca2ff52-0330-4d19-bc6e-3af1f4f8f1fd}</Project>
       <Name>IRemote</Name>
     </ProjectReference>
   </ItemGroup>
